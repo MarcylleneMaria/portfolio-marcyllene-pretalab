@@ -4,13 +4,14 @@
     <meta charset="UTF-8"
     <meta http-equiv="X-UA-Compatible" content="=IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Portfólio Marcyllene Santos</title>
+    <title>Portfólio Marcyllene Santos</title>
     <link rel="shortcut icon" href="img/Avatar-Maker.png">
     <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 
 <body>
-   <header class="header-menu"
+   <header class="header-menu">
     <nav>
         <ul class="lista-menu">
             <li> 
@@ -39,18 +40,16 @@
             <h3 class="profissao">Desenvolvedora Front-End</h3>
         </div>
 
-        <div>
-            <p>     Nascida e criada no Jardim Catarina, fundou a Organização Comunitária Nós por Nós - Por mais direitos e menos desigualdade social em 2015, onde atua como Coordenadora Geral do Pré-vestibular Comunitário Nós por Nós - Por uma Educação Emancipadora nas Periferias.
-                    Ingressou na universidade através das aulas da Biblioteca Comunitária Visconde de Sabugosa - Jardim Catarina. 
-                    Graduanda em Ciência Ambiental com um período de mobilidade acadêmica em Ciências Ambientais na Universidade Federal do Ceará (UFC). É Monitora em Políticas, Gestão e Projetos Socioambientais do Programa de Monitoria 2021 - 2022 e integrante do Grupo de Estudos em Relações Ambientais (GERA/UFF), ambos na Universidade Federal Fluminense (UFF). 
-                    Atuou como estagiária no Instituto Moleque Mateiro de Educação Ambiental (IMM) - Projeto Niterói Jovem Eco Social como Monitora Ambiental no Morro do Holofote; Estagiária em Cartografia e Geoprocessamento na Topocart - Topografia, Engenharia e Aerolevantamentos, Atualmente é estagiária em Sensoriamento Remoto na Santiago e Cintra - Consultoria Geoespacial  (SCCON). 
-                    Atua com educação em periferias urbanas e geoprocessamento e possui artigos publicados na área.
+        <div class="texto-sobre">
+            <p>
+                Oi, eu sou Marcyllene Maria da Silva Santos, tenho 25 anos. Sou nascida e criada em São Gonçalo, onde fundei a Organização Comunitária Nós por Nós - Por mais direitos e menos desigualdade social, nela atuo como coordenadora do Pré-vestibular Comunitário Nós por Nós - por uma educação emancipadora nas periferias.
+                Sou estudante de Ciência Ambiental na Universidade Federal Fluminense (UFF) e estudante do Ciclo Formativo Básico em Tecnologia da Pretalab/Olabi.
             </p>
         </div>  
     </div>
     </section>
 
-    <section id="formacao">
+    <section class="formacao" id="formacao">
         <div class="container section-lista">
            <div>
             <h3 class="topico-principal">Formação</h3> 
@@ -60,9 +59,7 @@
                 <li>
                     <p class="lista-titulo">Ciclo Formativo Pretalab 2ª ed.</p>
                     <a href="https://www.pretalab.com/#formacao" target="_blank" class="lista-local">Pretalab / Olabi</a>
-                    <p class="lista-descricao"> 
-                        lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-                    </p>
+                    <p class="lista-descricao">lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
                 </li>
             </ul>
         </div>
@@ -86,22 +83,28 @@
         </div>
     </section>
 
-    <section id="projetos" class="wrapper-portfolio">
-        <div>
-            <h3 class="topico-principal">Meus Projetos</h3> 
-        </div>
+    <section id="portfolio" class="projetos">
+        <div class="container section-lista">
+            <div> 
+                <h3 class="topico-principal">Meus Projetos</h3> 
+            </div>
+            <div class="lista-item">
             <ul>
                 <li>
-                    <a href="#" target="_blank">Calculadora em Javascrip</a>
+                    <p class="lista-titulo">Calculadora em Javascript</p> 
+                    <a href="#" target="_blank" class="lista-local">Calculadora em Javascrip</a>
                     <p class="lista-descricao">
-                    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                        Projeto desenvolvido durante o Ciclo Formativo Básico, da Pretalab com a finalidade de aprimorar os 
+                        conhecimentos em ferramentas de desenvolvimento Web - HTML e CSS.
                     </p>
                 </li>
 
                 <li> 
-                    <a href="#" target="_blank">Projeto Pessoal React</a>
+                    <p class="lista-titulo"> Projeto Pessoal React</p> 
+                    <a href="#" target="_blank" class="lista-local">Projeto Pessoal React</a>
                     <p class="lista-descricao">
-                    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                        Projeto desenvolvido durante o Ciclo Formativo Básico, da Pretalab com a finalidade de aprimorar os 
+                        conhecimentos em ferramentas de desenvolvimento Web - HTML e CSS.
                     </p>
                 </li>
             </ul>
@@ -109,33 +112,26 @@
     </section>
 </main>
 
-<footer>
-    <div id="contatos">
-        <div>
-            <h3 class="topico-principal">Contatos</h3> 
-        </div>
-        <ul>
+<footer class="footer" id="contato">
+    <div class="container-footer">
+        <ul class="lista-footer">
             <li> 
                 <i class="fas fa-envelope-square estilo-icon"></i>
-                <a href="mailto:marcyllenemaria@id.uff.br">marcyllenemaria@id.uff.br</a>
+                <a href="mailto:marcyllenemaria@id.uff.br" target="_blank" class="links">marcyllenemaria@id.uff.br</a>
             </li>
 
             <li> 
                 <i class="fab fa-linkedin estilo-icon"></i>
-                <a href="https://www.linkedin.com/in/marcyllenemaria/">marcyllenemaria</a>
+                <a href="https://www.linkedin.com/in/marcyllenemaria/" target="_blank" class="links">marcyllenemaria</a>
             </li>
 
             <li> 
                 <i class="fab fa-github-square estilo-icon"></i>
-                <a href="https://github.com/MarcylleneMaria">MarcylleneMaria</a>
+                <a href="https://github.com/MarcylleneMaria" target="_blank" class="links">MarcylleneMaria</a>
             </li>
-
-            <br div class="text-center"></br>
-                ©2020 Marcyllene Maria
-            </div>
+        
         </ul>
-                
-            </div>
+        </div>
         </div></div>
     </div>
 </footer>
