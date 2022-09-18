@@ -28,7 +28,7 @@ li {
     padding-bottom: 32px; /*Espaçamento inferior*/
     padding-top: 32px;/*Espaçamento superior*/
     height: 60px; /*Altura*/
-    background-color: #724796; /*Cor de fundo*/
+    background-color: #27523d; /*Cor de fundo*/
 }
 
 .header-menu nav {
@@ -136,7 +136,7 @@ centro do browser. O container é invisível. */
 }
 
 .formacao {
-    background-color: #fff;
+    background-color: #EAEAEA;
     display: flex;
     flex-direction: column;
 }
@@ -158,7 +158,7 @@ centro do browser. O container é invisível. */
 }
 
 .footer {
-    background-color: #724796;
+    background-color: #27523d;
     height: 550px;
     display: flex;
     align-items: center;
