@@ -6,9 +6,10 @@
     padding: 0;
     /* para configurar uma ou mais das propriedades de contorno */
     outline: 0;
+    box-sizing: border-box;
 }
 
-body{
+body {
     /* Definindo a fonte de todo nosso body */
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -19,7 +20,7 @@ li {
     list-style: none;
 }
 
-.header-menu{
+.header-menu {
     /* // Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens. */
     display: flex;
     position: fixed; /*Deixa o nosso header fixo*/
@@ -37,7 +38,7 @@ li {
     width: 100%; /*Largura*/
 }
 
-.lista-menu{
+.lista-menu {
     display: flex;
     justify-content: space-evenly; /*Espaçamento entre eles seja igual*/
     width: 50%; 
@@ -52,7 +53,7 @@ li {
     text-decoration: inherit;
 }
 
-.principal{
+.principal {
     height: 100vh;
     display: flex;
     background-color: #EAEAEA;
@@ -71,7 +72,7 @@ centro do browser. O container é invisível. */
     width: 100%; /*largura*/
 }
 
-.subcontainer-principal{
+.subcontainer-principal {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -101,12 +102,12 @@ centro do browser. O container é invisível. */
     color: #024959;
 }
 
-
 .section-lista {
     display: flex;
     margin-bottom: 200px;
     flex-direction: column;
 }
+
 .lista-item {
     padding: 32px;  /*espaçamento dos 4 lados*/
 }
@@ -120,6 +121,7 @@ centro do browser. O container é invisível. */
     font-size: 22px;
     color: #024959;
     font-weight: 700;
+    line-height: 32px;
 }
 
 .lista-local {
@@ -188,4 +190,19 @@ centro do browser. O container é invisível. */
     display: flex;
     align-items: center;
     flex-direction: row;
+}
+
+.imagem-principal {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background-image: linear-gradient(90deg, #3CA6A6 0%, #43E7AD 50.52%, #3CA6A6 100%);
+    border-radius: 100%;
+    display: flex;
+    padding: 4px;
+    transition: transform .3s;
+}
+
+main div img:hover {
+    transform: scale(1.1);
 }
