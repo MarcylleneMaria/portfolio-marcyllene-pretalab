@@ -147,6 +147,12 @@ centro do browser. O container é invisível. */
     flex-direction: column;
 }
 
+.ensino-superior {
+    background-color: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+}
+
 /* Rodapé */
 .container-footer {
     margin-right: auto; /*uma margem automática para todos os lados*/
